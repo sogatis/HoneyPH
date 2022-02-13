@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/image.jpg);
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+
+}
+
+
+
+h1 {
+    font-size: 18px;
+    color: black;
+    font-family: 'Catamaran' , 'Questrial', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 6px;
+
+
+
+}
+
+h2 {
+    font-size: 45px;
+    color: whitesmoke;
+    font-family: 'Catamaran', 'Questrial',
+    sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+   
+    margin-top: 12%;
+
+}
+
+img {
+    width: 45px; 
+    text-align: left;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 10px 0;
+     font-family: 'Catamaran',
+     'Questrial',
+     sans-serif;
+}
+
+/*navbar*/
+
+#navbar {
+    background-color: rgb(247, 211, 7);
+    padding: 4px 5px;
+    justify-content: space-between;
+    color: black;
+    overflow: auto;
+    width: 100%;
+
+}
+
+.logo {
+    border-radius: 50%;
+    width: 50px;
+
+}
+
+#navbar a {
+    color: black;
+
+
+}
+
+#navbar h1 {
+    font-size: 17px;
+    float: left;
+    padding-top: 20px;
+
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 17px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#navbar ul li a:hover {
+    color: white;
+}
+
+/*MAIN PAGE*/
+
+.mainbutton {
+    text-align: center;
+    margin-top: 23%;
+    margin-bottom: 20%;
+
+
+}
+
+.facebook-social {
+    position: relative;
+    float: left;
+
+}
+
+.instagram-social {
+    position: relative;
+    float: left;
+    margin: 20px -26px;
+
+}
+
+
+.donate-button {
+    margin-right: 5%;
+    border-radius: 7px;
+    padding: 13px 35px;
+    background-color: rgb(247, 211, 7);
+    font-size: 17px;
+    font-family: 'Catamaran',
+    'Questrial',
+    sans-serif;
+    
+    
+
+}
+
+.donate-button:hover {
+    transition: 1.2em;
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+
+
+}
+
+.adopt-button {
+    display: inline;
+    border-radius: 7px;
+    padding: 15px 35px;
+    background-color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+}
+
+.adopt-button:hover {
+    transition: 1.2em;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+.kittygallery {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    padding: 0 20px;
+
+
+}
+
+.title-gallery {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-decoration: underline 1px;
+    text-underline-offset: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px lightslategray;
+
+}
+
+img {
+    width: 15%;
+    /* height: 8%; */
+    padding: 5px;
+    border-radius: 10px;
+}
+
+img {
+    text-align: left;
+}
+
+.frame {
+
+
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.youtubevideo {
+
+    text-align: center;
+    padding: 50px;
+    background-color: blanchedalmond;
+
+
+}
+
+.buttonyoutube {
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: rgb(247, 211, 7);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+   box-shadow: 5px 5px 10px white;
+}
+
+.buttonyoutube:hover {
+    text-align: center;
+    transition: 1.2em;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+.mission {
+    background-color: whitesmoke;
+    padding: 70px;
+    text-align: center;
+     font-family: 'Catamaran',
+     'Questrial',
+     sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.titlemission {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.missionphoto {
+    border-radius: 50px;
+    float: left;
+    height: 10%;
+    width: 10%;
+}
+
+.titlegoals {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.goals {
+
+   
+    padding: 70px;
+    text-align: center;
+    font-family: 'Catamaran',
+    'Questrial',
+    sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+
+}
+
+.goalsphoto {
+    border-radius: 50px;
+
+    float: left;
+    height: 10%;
+    width: 10%;
+}
+
+.merchandise-title {
+    margin-bottom: 5%;
+    text-decoration: underline 1px;
+    text-underline-offset: 8px;
+    text-align: center;
+    font-family: font-family: 'Catamaran',
+    'Questrial',
+    sans-serif;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px lightslategray;
+
+
+}
+
+.merchandise-gallery {
+    background-color: blanchedalmond;
+     font-family: 'Catamaran',
+     'Questrial',
+     sans-serif;
+    padding: 40px;
+    text-align: center;
+
+
+
+}
+
+.merchandisebutton {
+    text-align: center;
+    padding: 10px;
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: rgb(247, 211, 7);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 10px white;
+
+}
+
+.merchandisebutton:hover {
+    text-align: center;
+    transition: 1.2em;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+.adoptfoster {
+    margin-right: 5%;
+    border-radius: 20px;
+    padding: 13px 42px;
+    background-color: rgb(247, 211, 7);
+    font-size: 17px;
+    font-family: 'Catamaran',
+    'Questrial',
+    sans-serif;
+    color: black;
+    transition: 1.2em;
+}
+
+.adoptfoster:hover {
+    text-align: center;
+    transition: 1.2em;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+
+img {
+    transition: transform .2s;
+
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+.sponsor {
+   
+    font-family: 'Catamaran',
+    'Questrial',
+    sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contact-title {
+    font-size: 30px;
+    text-decoration: underline 1px;
+    text-underline-offset: 8px;
+    margin-bottom: 35px;
+}
+
+.contactus {
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    text-align: center;
+    font-size: px;
+    background-color: blanchedalmond;
+}
+
+.contact-photo {
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+
+
+
+}
+
+
+.foot{
+    
+    
+    text-align: center;
+    
+    height: 80%;
+    padding: 8px;
+    background-color: rgb(247, 211, 7);
+    font-family: 'Catamaran',
+    'Questrial',
+    sans-serif;
+    font-size: small;
+
+
+}
+
+.foot-logo {
+    text-align: center;
+    border-radius: 50%;
+}
